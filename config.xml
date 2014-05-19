@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns       = "http://www.w3.org/ns/widgets"
+	xmlns:gap   = "http://phonegap.com/ns/1.0"
+	id          = "io.fixation.workshop"
+	versionCode = "10"
+	version     = "1.0.0" >
+
+  <!-- versionCode is optional and Android only -->
+
+  <name>PhoneGap Workshop</name>
+  
+  <description>
+    I'm doing the following tutorial http://coenraets.org/blog/phonegap-tutorial/ in order to get up to speed with phonegap.
+  </description>
+
+  <author href="https://github.com/bcolb" email="brice.tech@gmail.com">
+    Brice Colbert
+  </author>
+
+  <gap:platform name="ios" />
+  <gap:platform name="android" />
+  <gap:platform name="winphone" />
+
+</widget>
