@@ -1,6 +1,5 @@
 html {
     height: 100%;
-    color: green;
 }
 
 body {
@@ -141,6 +140,11 @@ li>a {
 
 li>a * {
     pointer-events: none;
+}
+
+li>a.tappable-active {
+    color: #fff;
+    background-color: #4286f5;
 }
 
 .scroll {
